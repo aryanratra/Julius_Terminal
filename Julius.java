@@ -133,7 +133,7 @@ public class Julius {
                 char de_key[] = cnsl.readPassword();
                 key = new String(de_key);
 
-                System.out.println("File Path Example: D://Files/New_Files/MyFile.txt");
+                System.out.println("File Path Example: D:\\Files\\New_Files\\MyFile.txt");
                 System.out.print("Enter File Path: ");
                 ogAd = sc.next();
                 en_file = new File(ogAd);
@@ -142,7 +142,7 @@ public class Julius {
                 path = Paths.get(ogAd);
                 filename = path.getFileName();
 
-                System.out.println("File Destination Path Example: D://Files/New_Files/");
+                System.out.println("File Destination Path Example: D:\\Files\\New_Files\\");
                 System.out.print("Enter File Destination Path: ");
                 destAd = sc.next();
                 System.out.println();
